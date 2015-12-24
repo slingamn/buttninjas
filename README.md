@@ -34,5 +34,5 @@ run the unit tests by install [pytest](http://pytest.org/) and then running:
 
 ## Bugs
 
-Any occurrences of "buttninjas" in the original input buffer will be converted
-to ampersands.
+The origins of the term "buttninjas" are shrouded in mystery and are the
+subject of continued debate among historians.

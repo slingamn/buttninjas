@@ -9,7 +9,8 @@ import buttninjas
                           ('&', '&amp;'),
                           ('&amp;', '&amp;'),
                           ('&permil;', '&amp;permil;'),
-                          ('buttninjas', '&amp;')
+                          ('buttninjas', 'buttninjas'),
+                          ('&amp;buttninjas&&amp;&', '&amp;buttninjas&amp;&amp;&amp;'),
                          ])
 def test_escape(inbuf, outbuf):
     assert buttninjas.escape_input(inbuf) == outbuf
